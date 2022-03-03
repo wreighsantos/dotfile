@@ -21,5 +21,7 @@ done
 git config --global user.name $git_name
 echo "Git name set to $git_name"
 
+# vimrc
+cp .vimrc $HOME/
 
 echo "Kickstart done, happy hacking!"
