@@ -15,8 +15,11 @@ echo "Git email set to $git_email"
 
 while [ -z "$git_name" ]
 do
-  read -p "Name to use on git? " git_nam
+  read -p "Name to use on git? " git_name
 done
 
 git config --global user.name $git_name
 echo "Git name set to $git_name"
+
+
+echo "Kickstart done, happy hacking!"
